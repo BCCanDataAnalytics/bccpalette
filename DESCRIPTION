@@ -1,0 +1,16 @@
+Package: bccpalette
+Type: Package
+Title: Use BC Cancer Branding Colours in ggplot2 Graphs
+Version: 0.1.0
+Authors@R: person('Data and Analytics', 'BC Cancer', email = 'Dataeval@bccancer.bc.ca', role = c('cre', 'aut'))
+Maintainer: BC Cancer Data and Analytics <Dataeval@bccancer.bc.ca>
+Description: Create and use custom BC Cancer branding colour palettes for ggplot2 graphs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2
